@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+html,
+body {
+  background: #e2e2e2;
+}
+,
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+button,
+hr {
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+:root {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  cursor: default;
+  line-height: 1.5;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  tab-size: 4;
+
+  --mainGreen: #00d764;
+  --greenGradient: linear-gradient(134.33deg, #00d764 0%, #00be64 90.62%);
+  --subGreen: #00be64;
+  --subPink: #ff5064;
+  --subBlue: #558cff;
+
+  --white: #ffffff;
+
+  --mono1: #f3f3f3;
+  --mono2: #d2d2d2;
+  --mono3: #999999;
+  --mono4: #585858;
+
+  --black: #000000;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
